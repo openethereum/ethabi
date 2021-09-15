@@ -10,7 +10,7 @@
 use crate::no_std_prelude::*;
 #[cfg(feature = "full-serde")]
 use core::num;
-use std::borrow::Cow;
+use crate::no_std_prelude::Cow;
 #[cfg(feature = "std")]
 use thiserror::Error;
 
