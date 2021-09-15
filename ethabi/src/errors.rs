@@ -40,7 +40,7 @@ pub enum Error {
 	#[error("Hex parsing error: {0}")]
 	Hex(#[from] hex::FromHexError),
 	/// Other errors.
-	#[error("{0}")]
+	#[cfg_attr(feature = "std", error("{0}"))]
 	Other(Cow<'static, str>),
 }
 
