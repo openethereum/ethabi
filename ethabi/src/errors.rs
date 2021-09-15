@@ -6,11 +6,11 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
+use crate::no_std_prelude::Cow;
 #[cfg(not(feature = "std"))]
 use crate::no_std_prelude::*;
 #[cfg(feature = "full-serde")]
 use core::num;
-use crate::no_std_prelude::Cow;
 #[cfg(feature = "std")]
 use thiserror::Error;
 
