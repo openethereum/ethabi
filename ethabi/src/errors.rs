@@ -52,6 +52,5 @@ impl From<uint::FromDecStrErr> for Error {
 			InvalidCharacter => Self::Other(Cow::Borrowed("Uint parse error: InvalidCharacter")),
 			InvalidLength => Self::Other(Cow::Borrowed("Uint parse error: InvalidLength")),
 		}
-		.into()
 	}
 }
