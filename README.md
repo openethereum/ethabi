@@ -8,7 +8,7 @@ The ABI, Application Binary Interface, is basically how you call functions in a 
 
 > An ABI determines such details as how functions are called and in which binary format information should be passed from one program component to the next...
 
-An Ethereum smart contract is bytecode, EVM, on the Ethereum blockchain. Among the EVM, there could be several functions in a contract. An ABI is necessary so that you can specify which function in the contract to invoke, as well as get a guarantee that the function will return data in the format you are expecting. [read more](http://ethereum.stackexchange.com/a/1171/394)
+An Ethereum smart contract is bytecode, EVM, on the Ethereum blockchain. Within the EVM, there could be several functions in a contract. An ABI is necessary so that you can specify which function in the contract to invoke, as well as get a guarantee that the function will return data in the format you are expecting. [read more](http://ethereum.stackexchange.com/a/1171/394)
 
 This library encodes function calls and decodes their output.
 
